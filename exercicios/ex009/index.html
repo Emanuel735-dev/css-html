@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas.</h1>
+    <p>Tente criar esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Âudio</h1>
+    <p>Vamos reproduzir Âudios em HTML5.</p>
+    <audio src="midia/So Sweet - Lish Grooves.mp3"controls autoplay>Musica calma</audio>  <!--MP3 WAV OGG-->
+    <audio preload="metadata"> autoplay controls loop <!-- São medida de segurança em caso do seu navegador não reproduzir  audio. E o loop é para reproduzir infitamente-->
+        <source src="midia/guanabara-33.mp 3" type="audio/mpeg">
+        <source src="midia/guanabara-33.ogg" type="midia/ogg">
+        <source src="midia/guanabara-33.wav" type="midia/wav"><!--evitar :porque é muito pessado.-->
+        <p>Infelismente seu navegador não consegue reproduzir áudio. Seu arquivo MP3, WAV e OGG.</p>
+    </audio>
+</body>
+</html>
