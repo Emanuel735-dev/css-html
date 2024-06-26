@@ -3,31 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens</title>
+    <title>Fudo fixo de Imagens</title>
     <style>
         body{
             height: 100vh;
+            
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            
+            /*
+                Shorthand - background
+                color > image > position > repeat > [size] >
+                attachment 
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width:400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagen de fundo.</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque et beatae non voluptatem velit laboriosam at aspernatur qui rem, porro, amet quas, molestiae nam rerum? Harum quos voluptatem quo quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus, rem nihil praesentium dolores dolor consectetur architecto, tempore iure illum ab culpa qui minus aut eos consequuntur omnis aperiam nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint culpa ut dignissimos exercitationem sed hic quis, aut tenetur provident. Facere ullam incidunt sequi ea, architecto dignissimos? Asperiores eum natus hic.</p>
     </main>
 </body>
 </html>
