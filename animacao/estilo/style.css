@@ -1,0 +1,20 @@
+@charset "utf 8";
+
+body{
+    margin: 30px;
+}
+.box{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+
+    transition-property: 'backgroud-color', 'border-radius';
+    transition-duration: 2s, 0.5s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(.15,.89,.85,.26);
+}
+
+.box:hover{
+    background-color: orange;
+    border-radius: 50%;
+}
