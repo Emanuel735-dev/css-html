@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 700px;  
+        }
+        td, th{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de tabelas.</h1>
+
+    <table>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th>Filmes</th>
+            </tr>
+    
+            <tr>
+                <tr>
+                    <th rowspan="4">Mulheres</th>
+                </tr>    
+                        <tr>
+                            <td>Ana Maria dos Santos</td>
+                            <td>
+                                Alien,
+                                Rambo,
+                                Vingadores.
+                            </td>
+                        </tr>         
+
+                        <tr>
+                            <td>Beatriz Souza</td>
+                            <td>
+                                Hulk,
+                                Inception,
+                                Batman.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Cláudia Mendonça</td>
+                            <td>
+                                Oblivion,
+                                Matrix,
+                                Big Hero.
+                        </tr>
+            </tr>
+            <tr>
+                <tr>
+                    <th rowspan="4">Homemens</th>
+                </tr>
+                    <tr>
+                        <td>Bruno Mendonça</td>
+                        <td>
+                            Intocaveis,
+                            Amnésia,
+                            Gladiador.
+                        </td>
+                    </tr>    
+                    
+                    <tr>
+                        <td>Daniel Lorenço</td>
+                        <td>
+                            Wall-e,
+                            Oldboy,
+                            Dangal.
+                        </td>
+                    </tr>           
+                
+                    <tr>
+                        <td>Fabiano Mota</td>
+                        <td>
+                            Star Wars 5,
+                            Taxi Driver,
+                            Toy Story.
+                        </td>
+                    </tr>   
+            </tr> 
+    </table>
+</body>
+</html>
